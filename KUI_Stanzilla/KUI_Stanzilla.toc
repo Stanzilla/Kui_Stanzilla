@@ -1,0 +1,8 @@
+## Interface: 80000
+## Title: KUI_Stanzilla
+## OptionalDeps: Kui_Nameplates_Core
+
+custom.agony.lua
+custom.mythicplus.lua
+custom.target-name.lua
+kui.los-fade.lua
