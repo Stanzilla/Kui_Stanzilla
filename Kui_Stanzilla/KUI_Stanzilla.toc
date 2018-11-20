@@ -1,5 +1,5 @@
 ## Interface: 80000
-## Title: KUI_Stanzilla
+## Title: Kui_Stanzilla
 ## OptionalDeps: Kui_Nameplates_Core
 
 kui.colour-bar-by-name.lua
