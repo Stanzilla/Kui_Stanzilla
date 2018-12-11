@@ -1,0 +1,10 @@
+package-as: Kui_Stanzilla
+
+enable-nolib-creation: no
+
+manual-changelog:
+ filename: CHANGELOG.md
+ markup-type: markdown
+
+move-folders:
+ Kui_Stanzilla/Kui_Stanzilla: Kui_Stanzilla
