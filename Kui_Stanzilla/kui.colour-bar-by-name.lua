@@ -13,7 +13,6 @@ local names = {
     ['Arcane Sentinel'] = {1, 0, 0},
     ['Duskwatch Battlemaster'] = {1, 0, 1},
     ['Volatile Scorpid'] = {1, 0, 1},
-    ['Fuming Imp'] = {1, 0, 1},
     ['Leystalker Dro'] = {1, 0, 1},
     ['Hand from Beyond'] = {1, 0, 1},
     ['Explosives'] = {1, 0, 1},
