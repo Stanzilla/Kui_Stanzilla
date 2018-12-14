@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: Kui_Stanzilla
 ## OptionalDeps: Kui_Nameplates_Core
 
