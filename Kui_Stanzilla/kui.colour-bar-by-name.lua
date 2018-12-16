@@ -5,7 +5,7 @@ local folder,ns=...
 local addon = KuiNameplates
 local core = KuiNameplatesCore
 
-local mod = addon:NewPlugin('ColourBarByName',101,3)
+local mod = addon:NewPlugin('ColourBarByName',101,5)
 if not mod then return end
 
 -- table of names -> bar colours (r,g,b)
@@ -32,7 +32,7 @@ local COLOUR_TARGET = {.4,.8,.4}
 
 -- To overwrite tank mode, set this to 6
 -- To overwrite execute, set this to 5
-local PRIORITY = 3
+local PRIORITY = 2
 
 -- local functions #############################################################
 -- reimplemented locally in execute & tankmode

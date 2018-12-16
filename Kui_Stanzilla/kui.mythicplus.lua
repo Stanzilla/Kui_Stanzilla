@@ -4,7 +4,7 @@
 local addon = KuiNameplates
 local core = KuiNameplatesCore
 
-local mod = addon:NewPlugin('MythicAuras',101,3)
+local mod = addon:NewPlugin('MythicAuras',101,5)
 if not mod then return end
 
 function mod:Create(f)
