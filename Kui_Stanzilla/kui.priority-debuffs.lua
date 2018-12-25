@@ -18,7 +18,8 @@ function mod:Create(f)
         filter = 'HARMFUL|PLAYER',
         whitelist = {
             [980] = true, -- agony
-            [80240] = true -- havoc
+            [80240] = true, -- havoc
+            [217200] = true -- barbed shot
         },
     })
     agony:SetFrameLevel(0)
