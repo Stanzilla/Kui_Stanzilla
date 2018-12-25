@@ -44,7 +44,7 @@ function mod:Create(frame)
     local tn = frame:CreateFontString(nil,'OVERLAY')
     local path, size, flags = frame.NameText:GetFont()
     tn:SetFont(path, 11, flags)
-    tn:SetPoint('BOTTOMRIGHT',frame,'BOTTOMRIGHT', -10, 4)
+    tn:SetPoint('BOTTOMRIGHT',frame,'BOTTOMRIGHT', 0, -8)
     tn:SetJustifyH("RIGHT")
     frame.TargetName = tn
 end
