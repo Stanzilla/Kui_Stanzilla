@@ -1,10 +1,9 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: Kui_Stanzilla
 ## OptionalDeps: Kui_Nameplates_Core
 
 kui.colour-bar-by-name.lua
 kui.left-layout.lua
-kui.los-fade.lua
 kui.mythicplus.lua
 kui.priority-debuffs.lua
 kui.target-name.lua
