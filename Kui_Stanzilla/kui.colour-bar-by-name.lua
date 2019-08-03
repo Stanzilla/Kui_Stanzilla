@@ -16,8 +16,11 @@ local names = {
     ['Leystalker Dro'] = {1, 0, 1},
     ['Hand from Beyond'] = {1, 0, 1},
     ['Explosives'] = {1, 0, 1},
-    ["Spawn of G'huun"] = {1, 0, 1},
+    ["Spawn of G'huun"] = {1, 1, 0},
     ['Scrimshaw Racketeer'] = {1, 0, 0},
+    ['Enchanted Emissary'] = {1, 1, 0},
+    ['Void-Touched Emissary'] = {1, 1, 0},
+    ['Emissary of the Tides'] = {1, 1, 0}
 }
 
 -- table of names -> frame alpha
