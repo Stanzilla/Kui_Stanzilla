@@ -42,8 +42,11 @@ end)
 
 function mod:Create(frame)
     local tn = frame:CreateFontString(nil,'OVERLAY')
-    local path, size, flags = frame.NameText:GetFont()
-    tn:SetFont(path, 11, flags)
+    local path = LSM:Fetch(LSM.MediaType.FONT,core.profile.font_face)
+    local size = 11
+    local flags = FONT_STYLE_ASSOC[core.profile.font_style]
+
+    tn:SetFont(path, size, flags)
     tn:SetPoint('BOTTOMRIGHT',frame,'BOTTOMRIGHT', 0, -8)
     tn:SetJustifyH("RIGHT")
     frame.TargetName = tn
