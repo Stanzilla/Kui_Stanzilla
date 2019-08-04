@@ -4,9 +4,18 @@
 local folder,ns=...
 local addon = KuiNameplates
 local core = KuiNameplatesCore
+local LSM = LibStub('LibSharedMedia-3.0')
 
 local mod = addon:NewPlugin('TargetName',101,5)
 if not mod then return end
+
+local FONT_STYLE_ASSOC = {
+    '',
+    'THINOUTLINE',
+    '',
+    'THINOUTLINE',
+    'THINOUTLINE MONOCHROME'
+}
 
 local UPDATE_INTERVAL = .1
 local interval = 0
