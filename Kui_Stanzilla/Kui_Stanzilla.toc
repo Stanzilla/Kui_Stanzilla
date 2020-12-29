@@ -1,4 +1,4 @@
-## Interface: 80205
+## Interface: 90001
 ## Title: Kui_Stanzilla
 ## OptionalDeps: Kui_Nameplates_Core
 
@@ -7,3 +7,4 @@ kui.left-layout.lua
 kui.mythicplus.lua
 kui.priority-debuffs.lua
 kui.target-name.lua
+kui.bolstering.lua
