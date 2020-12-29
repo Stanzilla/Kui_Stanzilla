@@ -23,7 +23,9 @@ local interval = 0
 local function ClassColorName(unit)
     local _, class = UnitClass(unit)
     if not class then return end
-    return RAID_CLASS_COLORS[class]:WrapTextInColorCode(UnitName(unit))
+    unitName = UnitName(unit)
+    unitName = unitName:gsub("(%S+) ",function(t) return t:sub(1,1).."." end)
+    return RAID_CLASS_COLORS[class]:WrapTextInColorCode(unitName)
 end
 
 local player = UnitGUID('player')
@@ -52,7 +54,7 @@ end)
 function mod:Create(frame)
     local tn = frame:CreateFontString(nil,'OVERLAY')
     local path = LSM:Fetch(LSM.MediaType.FONT,core.profile.font_face)
-    local size = 11
+    local size = 12
     local flags = FONT_STYLE_ASSOC[core.profile.font_style]
 
     tn:SetFont(path, size, flags)
