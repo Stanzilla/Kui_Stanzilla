@@ -24,7 +24,7 @@ local function ClassColorName(unit)
     local _, class = UnitClass(unit)
     if not class then return end
     unitName = UnitName(unit)
-    unitName = unitName:gsub("(%S+) ",function(t) return t:sub(1,1).."." end)
+    unitName = unitName:gsub("(.[\128-\191]*)%S+%s","%1.")
     return RAID_CLASS_COLORS[class]:WrapTextInColorCode(unitName)
 end
 
