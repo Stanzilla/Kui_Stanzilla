@@ -1,6 +1,7 @@
-## Interface: 100000
+## Interface: 100100
 ## Title: Kui_Stanzilla
 ## OptionalDeps: Kui_Nameplates_Core
+## IconTexture: 132177
 
 kui.colour-bar-by-name.lua
 kui.left-layout.lua
