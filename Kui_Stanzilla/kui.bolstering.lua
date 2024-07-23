@@ -6,6 +6,14 @@ if not mod then
 	return
 end
 
+local UnitAura = function(unitToken, index, filter)
+    if C_UnitAuras and C_UnitAuras.GetAuraDataByIndex then
+        return AuraUtil.UnpackAuraData(C_UnitAuras.GetAuraDataByIndex(unitToken, index, filter))
+    elseif _G.UnitAura then
+        return _G.UnitAura(unitToken, index, filter) end
+    return nil
+end
+
 function mod.Bolster(f)
 	if f.id == 99 then
 		local c = 0
